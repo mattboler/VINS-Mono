@@ -15,7 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
     roslib
     )
 
-find_package(OpenCV)
+find_package(OpenCV 4.5.2 REQUIRED) # drop down to 4.0.0 to use OpenCV that ships with 20.04
 
 
 find_package(Ceres REQUIRED)

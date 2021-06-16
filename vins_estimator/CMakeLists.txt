@@ -15,7 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
     cv_bridge
     )
 
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 4.5.2 REQUIRED) # Drop down to 4.0.0 to use OpenCV that ships with 20.04
 
 # message(WARNING "OpenCV_VERSION: ${OpenCV_VERSION}")
 

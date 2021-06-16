@@ -1,3 +1,5 @@
+Updated to run on Ubuntu 20.04 with ROS Noetic
+
 # VINS-Mono
 ## A Robust and Versatile Monocular Visual-Inertial State Estimator
 

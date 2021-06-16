@@ -16,7 +16,7 @@ find_package(catkin REQUIRED COMPONENTS
   message_filters
   camera_model
 )
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 4.5.2 REQUIRED) # drop down to 4.0.0 to use OpenCV that ships with 20.04
 
 catkin_package(
 
